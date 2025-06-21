@@ -54,16 +54,35 @@ Walaupun telah menjadi menjadi perusahaan yang cukup besar, Jaya Jaya Maju masih
 
 Sumber data : [Employee Data Jaya Jaya Maju](https://github.com/dicodingacademy/dicoding_dataset/blob/main/employee/employee_data.csv)
 
-Setup environment :
+Clone Repository
+```
+git clone https://github.com/Dilalovegood/Attrition-Prediction-Jaya-Jaya-Maju.git
+cd Attrition-Prediction-Jaya-Jaya-Maju
+```
+
+Setup environment - Shell/ Terminal :
 
 ```
-# Command Prompt in Vscode
+# Buat virtual environment
 python -m venv venv
+
+# Aktifkan virtual environment (Windows)
 venv\Scripts\activate
-pip freeze > requirements.txt
+
+# Install semua dependensi dari file requirements.txt
+pip install -r requirements.txt
+```
+
+Run Prediction Python
+```
+Python dashboard.py
 ```
 
 ## Business Dashboard
+```
+username = postgres.crbobrshmijeejphcnlv
+password = dilalovegood99
+```
 
 Dapat dilihat pada gambar dashboard di bawah
 
