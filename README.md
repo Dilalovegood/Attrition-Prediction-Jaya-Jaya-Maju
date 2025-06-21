@@ -80,7 +80,7 @@ Python dashboard.py
 
 ## Business Dashboard
 ```
-username = postgres.crbobrshmijeejphcnlv
+username = dilalovegood@gmail.com
 password = dilalovegood99
 ```
 
